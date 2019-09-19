@@ -215,7 +215,7 @@ const STORE = [
   function wrongAnswer() {
     $('.response').html(
       `<h3>Oh no, wrong answer!</h3>
-      <img src="leo-images/sadLeo.png" alt="Leo crying on the floor" class="images" width="200px">
+      <img src="leo-images/sadLeo.png" alt="Leo crying on the floor" class="images" width="200px height='350px">
       <p class="sizeMe">The correct answer is:</p>
       <p class="sizeMe">${STORE[questionNumber].correctAnswer}</p>
       <button type="button" class="nextButton button">Next</button>`
