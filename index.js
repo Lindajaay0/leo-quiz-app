@@ -205,7 +205,7 @@ const STORE = [
   function correctAnswer() {
     $('.response').html(
       `<h3>That is correct!</h3>
-      <img src="images/happyLeo.png" alt="Leo celebrating" class="images" width="200px">
+      <img src="leo-images/happyLeo.png" alt="Leo celebrating" class="images" width="200px">
         <p class="sizeMe">Leo would be proud!</p> <button type="button" class="nextButton button">Next</button>`
     );
     updateScore();
@@ -215,7 +215,7 @@ const STORE = [
   function wrongAnswer() {
     $('.response').html(
       `<h3>Oh no, wrong answer!</h3>
-      <img src="images/sadLeo.png" alt="Leo crying on the floor" class="images" width="200px">
+      <img src="leo-images/sadLeo.png" alt="Leo crying on the floor" class="images" width="200px">
       <p class="sizeMe">The correct answer is:</p>
       <p class="sizeMe">${STORE[questionNumber].correctAnswer}</p>
       <button type="button" class="nextButton button">Next</button>`
@@ -238,17 +238,17 @@ const STORE = [
   
     const great = [
       'Great job! You are a true fan!',
-      'images/congratsLeo.png'
+      'leo-images/congratsLeo.png'
     ];
   
     const good = [
       'You did okay. You are a moderate fan.',
-      'images/clappingLeo.png',
+      'leo-images/clappingLeo.png',
     ];
   
     const bad = [
       'That was brutal. Do you even know who Leonardo Dicaprio is?',
-      'images/angryLeo.png'
+      'leo-images/angryLeo.png'
     ];
   
     if (score >= 8) {
