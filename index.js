@@ -4,7 +4,8 @@ const STORE = [
       answers: [
         'November 11, 1974',
         'June 7, 1975',
-        'August 12, 1973'
+        'August 12, 1973',
+        'February 3, 1974'
       ],
       correctAnswer:
         'November 11, 1974'
@@ -14,7 +15,8 @@ const STORE = [
       answers: [
         'Romeo + Juliet',
         'What’s Eating Gilbert Grape?',
-        'In the Line of Fire'
+        'In the Line of Fire',
+        'Titanic'
       ],
       correctAnswer:
         'What’s Eating Gilbert Grape?'
@@ -24,7 +26,8 @@ const STORE = [
       answers: [
         'Revolutionary Road',
         'Inception',
-        'Gangs of New York'
+        'Gangs of New York',
+        'The Aviator'
       ],
       correctAnswer:
         'Revolutionary Road'
@@ -34,6 +37,7 @@ const STORE = [
       answers: [
         '3',
         '4',
+        '1',
         '5'
       ],
       correctAnswer:
@@ -44,7 +48,8 @@ const STORE = [
       answers: [
         'Appian Way',
         'EcoProd Studios',
-        'Caprio Productions'
+        'Caprio Productions',
+        'Leo Productions'
       ],
       correctAnswer:
         'Appian Way'
@@ -54,6 +59,7 @@ const STORE = [
       answers: [
         'Calvin Candie, Django Unchained',
         'Jay Gatsby, The Great Gatsby',
+        'Howard Hughes, The Aviator',
         'Jordan Belfort, The Wolf of Wall Street'
       ],
       correctAnswer:
@@ -64,7 +70,8 @@ const STORE = [
       answers: [
         '12',
         '9',
-        '15'
+        '15',
+        '25'
       ],
       correctAnswer:
         '12'
@@ -74,7 +81,8 @@ const STORE = [
       answers: [
         'The Wax Museum',
         'The Orphan',
-        'The Haunting in Connecticut'
+        'The Haunting in Connecticut',
+        'Scream'
       ],
       correctAnswer:
         'The Orphan'
@@ -84,7 +92,8 @@ const STORE = [
       answers: [
         'Ridley Scott',
         'Quentin Tarantino',
-        'Martin Scorsese'
+        'Martin Scorsese',
+        'Chris Brigham'
       ],
       correctAnswer:
         'Quentin Tarantino'
@@ -94,7 +103,8 @@ const STORE = [
       answers: [
         'Inception',
         'Shutter Island',
-        'Body of Lies'
+        'Body of Lies',
+        'Catch Me If You Can'
       ],
       correctAnswer:
         'Shutter Island'
