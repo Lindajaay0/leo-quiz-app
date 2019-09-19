@@ -205,7 +205,7 @@ const STORE = [
   function correctAnswer() {
     $('.response').html(
       `<h3>That is correct!</h3>
-      <img src="leo-images/happyLeo.png" alt="Leo celebrating" class="images" width="200px">
+      <img src="leo-images/happyLeo.png" alt="Leo celebrating" class="images" width="1000px" height="120px">
         <p class="sizeMe">Leo would be proud!</p> <button type="button" class="nextButton button">Next</button>`
     );
     updateScore();
