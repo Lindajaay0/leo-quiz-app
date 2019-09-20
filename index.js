@@ -192,7 +192,7 @@ const STORE = [
       $(`<label class="sizeMe" for="${answerIndex}">
           <input class="radio" type="radio" id="${answerIndex}" value="${answerValue}"
           name="answer" required>
-          <span>${answerValue}</span>
+          <span><br>${answerValue}</br></span>
         </label>
         `).appendTo(fieldSelector);
     });
